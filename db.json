@@ -1,0 +1,416 @@
+{
+    "datas": [
+        {
+          "id": 13416,
+          "employee_id": 218,
+          "day_of_month": {
+            "date": "2019-10-01 19:50:37.000000",
+            "timezone_type": 3,
+            "timezone": "UTC"
+          },
+          "created_at": "2019-10-02 10:12:25",
+          "updated_at": "2019-10-02 10:12:25",
+          "not_format_date": "2019-10-01",
+          "timecard_group_hours": [
+            {
+              "id": 41347,
+              "timecard_id": 13416,
+              "group_number": 1,
+              "company_id": 16,
+              "hours": "08:24:00",
+              "discard_hour": 0,
+              "clock_hash": "W5MMUf1Gie",
+              "used_day_less": 0,
+              "created_at": "2019-10-15 10:46:15",
+              "updated_at": "2019-10-15 10:46:15",
+              "pre_marked": 0,
+              "has_manual_adjustment": 0
+            },
+            {
+              "id": 41348,
+              "timecard_id": 13416,
+              "group_number": 2,
+              "company_id": 16,
+              "hours": "12:15:00",
+              "discard_hour": 0,
+              "clock_hash": "W5MMUf1Gie",
+              "used_day_less": 0,
+              "created_at": "2019-10-15 10:46:15",
+              "updated_at": "2019-10-15 10:46:15",
+              "pre_marked": 0,
+              "has_manual_adjustment": 0
+            },
+            {
+              "id": 41349,
+              "timecard_id": 13416,
+              "group_number": 3,
+              "company_id": 16,
+              "hours": "13:11:00",
+              "discard_hour": 0,
+              "clock_hash": "W5MMUf1Gie",
+              "used_day_less": 0,
+              "created_at": "2019-10-15 10:46:15",
+              "updated_at": "2019-10-15 10:46:15",
+              "pre_marked": 0,
+              "has_manual_adjustment": 0
+            },
+            {
+              "id": 41350,
+              "timecard_id": 13416,
+              "group_number": 4,
+              "company_id": 16,
+              "hours": "18:00:00",
+              "discard_hour": 0,
+              "clock_hash": "W5MMUf1Gie",
+              "used_day_less": 0,
+              "created_at": "2019-10-15 10:46:15",
+              "updated_at": "2019-10-15 10:46:15",
+              "pre_marked": 0,
+              "has_manual_adjustment": 0
+            }
+          ]
+        },
+        {
+          "id": 13844,
+          "employee_id": 218,
+          "day_of_month": {
+            "date": "2019-10-02 19:50:37.000000",
+            "timezone_type": 3,
+            "timezone": "UTC"
+          },
+          "created_at": "2019-10-03 13:57:57",
+          "updated_at": "2019-10-03 13:57:57",
+          "not_format_date": "2019-10-02",
+          "timecard_group_hours": [
+            {
+              "id": 41351,
+              "timecard_id": 13844,
+              "group_number": 1,
+              "company_id": 16,
+              "hours": "08:27:00",
+              "discard_hour": 0,
+              "clock_hash": "W5MMUf1Gie",
+              "used_day_less": 0,
+              "created_at": "2019-10-15 10:46:15",
+              "updated_at": "2019-10-15 10:46:15",
+              "pre_marked": 0,
+              "has_manual_adjustment": 0
+            },
+            {
+              "id": 41352,
+              "timecard_id": 13844,
+              "group_number": 2,
+              "company_id": 16,
+              "hours": "12:15:00",
+              "discard_hour": 0,
+              "clock_hash": "W5MMUf1Gie",
+              "used_day_less": 0,
+              "created_at": "2019-10-15 10:46:15",
+              "updated_at": "2019-10-15 10:46:15",
+              "pre_marked": 0,
+              "has_manual_adjustment": 0
+            },
+            {
+              "id": 41353,
+              "timecard_id": 13844,
+              "group_number": 3,
+              "company_id": 16,
+              "hours": "13:12:00",
+              "discard_hour": 0,
+              "clock_hash": "W5MMUf1Gie",
+              "used_day_less": 0,
+              "created_at": "2019-10-15 10:46:15",
+              "updated_at": "2019-10-15 10:46:15",
+              "pre_marked": 0,
+              "has_manual_adjustment": 0
+            },
+            {
+              "id": 41354,
+              "timecard_id": 13844,
+              "group_number": 4,
+              "company_id": 16,
+              "hours": "18:00:00",
+              "discard_hour": 0,
+              "clock_hash": "W5MMUf1Gie",
+              "used_day_less": 0,
+              "created_at": "2019-10-15 10:46:15",
+              "updated_at": "2019-10-15 10:46:15",
+              "pre_marked": 0,
+              "has_manual_adjustment": 0
+            }
+          ]
+        },
+        {
+          "id": 13875,
+          "employee_id": 218,
+          "day_of_month": {
+            "date": "2019-10-03 19:50:37.000000",
+            "timezone_type": 3,
+            "timezone": "UTC"
+          },
+          "created_at": "2019-10-04 10:45:40",
+          "updated_at": "2019-10-04 10:45:40",
+          "not_format_date": "2019-10-03",
+          "timecard_group_hours": [
+            {
+              "id": 41355,
+              "timecard_id": 13875,
+              "group_number": 1,
+              "company_id": 16,
+              "hours": "08:28:00",
+              "discard_hour": 0,
+              "clock_hash": "W5MMUf1Gie",
+              "used_day_less": 0,
+              "created_at": "2019-10-15 10:46:15",
+              "updated_at": "2019-10-15 10:46:15",
+              "pre_marked": 0,
+              "has_manual_adjustment": 0
+            },
+            {
+              "id": 41356,
+              "timecard_id": 13875,
+              "group_number": 2,
+              "company_id": 16,
+              "hours": "12:28:00",
+              "discard_hour": 0,
+              "clock_hash": "W5MMUf1Gie",
+              "used_day_less": 0,
+              "created_at": "2019-10-15 10:46:15",
+              "updated_at": "2019-10-15 10:46:15",
+              "pre_marked": 0,
+              "has_manual_adjustment": 0
+            },
+            {
+              "id": 41357,
+              "timecard_id": 13875,
+              "group_number": 3,
+              "company_id": 16,
+              "hours": "13:24:00",
+              "discard_hour": 0,
+              "clock_hash": "W5MMUf1Gie",
+              "used_day_less": 0,
+              "created_at": "2019-10-15 10:46:15",
+              "updated_at": "2019-10-15 10:46:15",
+              "pre_marked": 0,
+              "has_manual_adjustment": 0
+            },
+            {
+              "id": 41358,
+              "timecard_id": 13875,
+              "group_number": 4,
+              "company_id": 16,
+              "hours": "18:01:00",
+              "discard_hour": 0,
+              "clock_hash": "W5MMUf1Gie",
+              "used_day_less": 0,
+              "created_at": "2019-10-15 10:46:15",
+              "updated_at": "2019-10-15 10:46:15",
+              "pre_marked": 0,
+              "has_manual_adjustment": 0
+            }
+          ]
+        },
+        {
+          "id": 18554,
+          "employee_id": 218,
+          "day_of_month": {
+            "date": "2019-10-04 19:50:37.000000",
+            "timezone_type": 3,
+            "timezone": "UTC"
+          },
+          "created_at": "2019-10-15 10:46:15",
+          "updated_at": "2019-10-15 10:46:15",
+          "not_format_date": "2019-10-04",
+          "timecard_group_hours": [
+            {
+              "id": 41359,
+              "timecard_id": 18554,
+              "group_number": 1,
+              "company_id": 16,
+              "hours": "08:27:00",
+              "discard_hour": 0,
+              "clock_hash": "W5MMUf1Gie",
+              "used_day_less": 0,
+              "created_at": "2019-10-15 10:46:15",
+              "updated_at": "2019-10-15 10:46:15",
+              "pre_marked": 0,
+              "has_manual_adjustment": 0
+            },
+            {
+              "id": 41360,
+              "timecard_id": 18554,
+              "group_number": 2,
+              "company_id": 16,
+              "hours": "12:19:00",
+              "discard_hour": 0,
+              "clock_hash": "W5MMUf1Gie",
+              "used_day_less": 0,
+              "created_at": "2019-10-15 10:46:15",
+              "updated_at": "2019-10-15 10:46:15",
+              "pre_marked": 0,
+              "has_manual_adjustment": 0
+            },
+            {
+              "id": 41361,
+              "timecard_id": 18554,
+              "group_number": 3,
+              "company_id": 16,
+              "hours": "13:33:00",
+              "discard_hour": 0,
+              "clock_hash": "W5MMUf1Gie",
+              "used_day_less": 0,
+              "created_at": "2019-10-15 10:46:15",
+              "updated_at": "2019-10-15 10:46:15",
+              "pre_marked": 0,
+              "has_manual_adjustment": 0
+            },
+            {
+              "id": 41362,
+              "timecard_id": 18554,
+              "group_number": 4,
+              "company_id": 16,
+              "hours": "18:02:00",
+              "discard_hour": 0,
+              "clock_hash": "W5MMUf1Gie",
+              "used_day_less": 0,
+              "created_at": "2019-10-15 10:46:15",
+              "updated_at": "2019-10-15 10:46:15",
+              "pre_marked": 0,
+              "has_manual_adjustment": 0
+            }
+          ]
+        },
+        {
+          "id": 18555,
+          "employee_id": 218,
+          "day_of_month": {
+            "date": "2019-10-05 19:50:37.000000",
+            "timezone_type": 3,
+            "timezone": "UTC"
+          },
+          "created_at": "2019-10-15 10:46:15",
+          "updated_at": "2019-10-15 10:46:15",
+          "not_format_date": "2019-10-05",
+          "timecard_group_hours": [
+            {
+              "id": 41363,
+              "timecard_id": 18555,
+              "group_number": 1,
+              "company_id": 16,
+              "hours": "08:26:00",
+              "discard_hour": 0,
+              "clock_hash": "W5MMUf1Gie",
+              "used_day_less": 0,
+              "created_at": "2019-10-15 10:46:15",
+              "updated_at": "2019-10-15 10:46:15",
+              "pre_marked": 0,
+              "has_manual_adjustment": 0
+            },
+            {
+              "id": 41364,
+              "timecard_id": 18555,
+              "group_number": 2,
+              "company_id": 16,
+              "hours": "12:31:00",
+              "discard_hour": 0,
+              "clock_hash": "W5MMUf1Gie",
+              "used_day_less": 0,
+              "created_at": "2019-10-15 10:46:15",
+              "updated_at": "2019-10-15 10:46:15",
+              "pre_marked": 0,
+              "has_manual_adjustment": 0
+            },
+            "",
+            ""
+          ]
+        },
+        {
+          "id": 18575,
+          "employee_id": 218,
+          "day_of_month": {
+            "date": "2019-10-06 19:50:37.000000",
+            "timezone_type": 3,
+            "timezone": "UTC"
+          },
+          "created_at": "2019-10-15 10:49:05",
+          "updated_at": "2019-10-15 10:49:05",
+          "not_format_date": "2019-10-06",
+          "timecard_group_hours": [
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "id": 18556,
+          "employee_id": 218,
+          "day_of_month": {
+            "date": "2019-10-07 19:50:37.000000",
+            "timezone_type": 3,
+            "timezone": "UTC"
+          },
+          "created_at": "2019-10-15 10:46:15",
+          "updated_at": "2019-10-15 10:46:15",
+          "not_format_date": "2019-10-07",
+          "timecard_group_hours": [
+            {
+              "id": 41365,
+              "timecard_id": 18556,
+              "group_number": 1,
+              "company_id": 16,
+              "hours": "08:40:00",
+              "discard_hour": 0,
+              "clock_hash": "W5MMUf1Gie",
+              "used_day_less": 0,
+              "created_at": "2019-10-15 10:46:15",
+              "updated_at": "2019-10-15 10:46:15",
+              "pre_marked": 0,
+              "has_manual_adjustment": 0
+            },
+            {
+              "id": 41366,
+              "timecard_id": 18556,
+              "group_number": 2,
+              "company_id": 16,
+              "hours": "12:25:00",
+              "discard_hour": 0,
+              "clock_hash": "W5MMUf1Gie",
+              "used_day_less": 0,
+              "created_at": "2019-10-15 10:46:15",
+              "updated_at": "2019-10-15 10:46:15",
+              "pre_marked": 0,
+              "has_manual_adjustment": 0
+            },
+            {
+              "id": 41367,
+              "timecard_id": 18556,
+              "group_number": 3,
+              "company_id": 16,
+              "hours": "13:24:00",
+              "discard_hour": 0,
+              "clock_hash": "W5MMUf1Gie",
+              "used_day_less": 0,
+              "created_at": "2019-10-15 10:46:15",
+              "updated_at": "2019-10-15 10:46:15",
+              "pre_marked": 0,
+              "has_manual_adjustment": 0
+            },
+            {
+              "id": 41368,
+              "timecard_id": 18556,
+              "group_number": 4,
+              "company_id": 16,
+              "hours": "18:00:00",
+              "discard_hour": 0,
+              "clock_hash": "W5MMUf1Gie",
+              "used_day_less": 0,
+              "created_at": "2019-10-15 10:46:15",
+              "updated_at": "2019-10-15 10:46:15",
+              "pre_marked": 0,
+              "has_manual_adjustment": 0
+            }
+          ]
+        }
+      ]
+}
