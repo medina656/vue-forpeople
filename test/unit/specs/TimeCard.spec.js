@@ -1,9 +1,9 @@
 import Vue from 'vue';
-import HelloWorld from '@/components/HelloWorld';
+import TimeCard from '@/components/TimeCard';
 
-describe('HelloWorld.vue', () => {
+describe('TimeCard.vue', () => {
   it('should render correct contents', () => {
-    const Constructor = Vue.extend(HelloWorld);
+    const Constructor = Vue.extend(TimeCard);
     const vm = new Constructor().$mount();
     expect(vm.$el.querySelector('.hello h1').textContent)
       .toEqual('Welcome to Your Vue.js App');

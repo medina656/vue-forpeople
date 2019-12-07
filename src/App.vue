@@ -13,11 +13,14 @@ export default {
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  margin-top: 20px;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  padding: 0;
+  background: #2f363e;
+}
+body {
+  margin: 0px;
+  background: #2f363e;
 }
 </style>
