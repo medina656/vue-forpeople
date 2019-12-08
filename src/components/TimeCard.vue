@@ -7,7 +7,7 @@
         <th>Saída 1</th>
         <th>Entrada 2</th>
         <th>Saída 2</th>
-        <th>Opções</th>
+        <th>Ações</th>
       </tr>
       <tr v-for="datas of data">
         <td>{{ datas.created_at }}</td>
@@ -15,7 +15,10 @@
         <td>{{ datas.hours }}</td>
         <td>{{ datas.hours }}</td>
         <td>{{ datas.hours }}</td>
-        <td>Ações</td>
+        <td style="font-size: 20px; cursor: pointer">
+          <font-awesome-icon icon="cog" />
+          <font-awesome-icon icon="exclamation-triangle" />
+        </td>
       </tr>
     </table>
   </div>
@@ -52,10 +55,6 @@
 
 <!-- Adicionado o atributo "scoped" para limitar este CSS apenas a este componente -->
 <style scoped>
-body {
-  font-family: Helvetica Neue, Arial, sans-serif;
-  font-size: 14px;
-}
 .container {
   display: flex;
   justify-content: center;
