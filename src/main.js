@@ -3,8 +3,16 @@
 import Vue from 'vue';
 import App from './App';
 import router from './router';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faCog } from '@fortawesome/free-solid-svg-icons';
+import { faExclamationTriangle } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 
 Vue.config.productionTip = false;
+library.add(faCog)
+library.add(faExclamationTriangle)
+
+Vue.component('font-awesome-icon', FontAwesomeIcon)
 
 /* eslint-disable no-new */
 new Vue({
