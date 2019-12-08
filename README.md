@@ -1,8 +1,4 @@
----
-title: 'Documentation For people'
----
-
-For people - Test
+For people - Test - Lucas Medina
 ===
 
 ## Tutorial
