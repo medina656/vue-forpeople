@@ -50,6 +50,7 @@ json-server --watch db.json
 ## Solução
 
 Criei o component TimeCard.vue, nele eu fiz uma tabela em HTML, estilizei ela e na tag script eu fiz o get da minha API utilizando o axios.
+Solução do modo responsivo: Utilizei divs para criar uma versão responsiva da tabela, acrescentei um display: none na classe da div pai e fiz um media-query para quando a tela for menor, o display: none é alterado para display: block e é acrescentado o display: none na tabela que aparece no modo desktop.
 Após isso, na tabela HTML, utilizando o v-for, consegui chamar os dados da API.
 
 ## Sobre o projeto
