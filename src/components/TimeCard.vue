@@ -1,27 +1,66 @@
 <template>
-  <div class="container">
-    <table>
-      <tr>
-        <th>Dia</th>
-        <th>Entrada 1</th>
-        <th>Saída 1</th>
-        <th>Entrada 2</th>
-        <th>Saída 2</th>
-        <th>Ações</th>
-      </tr>
-      <tr v-for="datas of data">
-        <td>{{ datas.created_at }}</td>
-        <td>{{ datas.hours }}</td>
-        <td>{{ datas.hours }}</td>
-        <td>{{ datas.hours }}</td>
-        <td>{{ datas.hours }}</td>
-        <td style="font-size: 20px; cursor: pointer">
-          <font-awesome-icon icon="cog" />
-          <font-awesome-icon icon="exclamation-triangle" />
-        </td>
-      </tr>
-    </table>
-  </div>
+    <div class="container">
+      <div class="desktop">
+        <table>
+          <tr>
+            <th>Dia</th>
+            <th>Entrada 1</th>
+            <th>Saída 1</th>
+            <th>Entrada 2</th>
+            <th>Saída 2</th>
+            <th>Ações</th>
+          </tr>
+          <tr v-for="datas of data">
+            <td>{{ datas.created_at }}</td>
+            <td>{{ datas.hours }}</td>
+            <td>{{ datas.hours }}</td>
+            <td>{{ datas.hours }}</td>
+            <td>{{ datas.hours }}</td>
+            <td style="font-size: 20px; cursor: pointer">
+              <font-awesome-icon icon="cog" />
+              <font-awesome-icon icon="exclamation-triangle" />
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="responsive">
+        <div class="responsive-styles">
+          <p>Dia</p>
+          <div v-for="datas of data">
+            <p>{{ datas.created_at }}</p>
+          </div>
+        </div>
+        <div class="responsive-styles2">
+          <p>Entrada 1</p>
+          <div v-for="datas of data">
+            <p>{{ datas.hours }}</p>
+          </div>
+        </div>
+        <div class="responsive-styles">
+          <p>Saída 1</p>
+          <div v-for="datas of data">
+            <p>{{ datas.hours }}</p>
+          </div>
+        </div>
+        <div class="responsive-styles2">
+          <p>Entrada 2</p>
+          <div v-for="datas of data">
+            <p>{{ datas.hours }}</p>
+          </div>
+        </div>
+        <div class="responsive-styles">
+          <p>Saída 2</p>
+          <div v-for="datas of data">
+            <p>{{ datas.hours }}</p>
+          </div>
+        </div>
+        <div class="responsive-styles2">
+          <p>Ações</p>
+            <font-awesome-icon icon="cog" />
+            <font-awesome-icon icon="exclamation-triangle" />
+        </div>
+      </div>
+    </div>
 </template>
 
 <script>
@@ -60,6 +99,32 @@
   justify-content: center;
   align-items: center;
   margin-top: 50px;
+}
+.responsive {
+  display: none;
+}
+@media screen and (max-width: 992px) {
+  .desktop {
+    display: none;
+  }
+  .responsive {
+    display: block;
+    margin: 10px;
+  }
+  .responsive-styles {
+    display: flex;
+    color: #FFF;
+    font-size: 14px;
+    background-color: #434a52;
+    padding: 10px;
+  }
+  .responsive-styles2 {
+    display: flex;
+    color: #FFF;
+    font-size: 14px;
+    background-color: #3a424a;
+    padding: 10px;
+  }
 }
 
 table {
