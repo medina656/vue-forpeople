@@ -25,37 +25,37 @@
       </div>
       <div class="responsive">
         <div class="responsive-styles">
-          <p>Dia</p>
+          <p style="margin-right: 2px;">Dia</p>
           <div v-for="datas of data">
             <p>{{ datas.created_at }}</p>
           </div>
         </div>
         <div class="responsive-styles2">
-          <p>Entrada 1</p>
+          <p style="margin-right: 2px;">Entrada 1</p>
           <div v-for="datas of data">
             <p>{{ datas.hours }}</p>
           </div>
         </div>
         <div class="responsive-styles">
-          <p>Saída 1</p>
+          <p style="margin-right: 2px;">Saída 1</p>
           <div v-for="datas of data">
             <p>{{ datas.hours }}</p>
           </div>
         </div>
         <div class="responsive-styles2">
-          <p>Entrada 2</p>
+          <p style="margin-right: 2px;">Entrada 2</p>
           <div v-for="datas of data">
             <p>{{ datas.hours }}</p>
           </div>
         </div>
         <div class="responsive-styles">
-          <p>Saída 2</p>
+          <p style="margin-right: 2px;">Saída 2</p>
           <div v-for="datas of data">
             <p>{{ datas.hours }}</p>
           </div>
         </div>
         <div class="responsive-styles2">
-          <p>Ações</p>
+          <p style="margin-right: 2px;">Ações</p>
             <font-awesome-icon icon="cog" />
             <font-awesome-icon icon="exclamation-triangle" />
         </div>
@@ -117,6 +117,7 @@
     font-size: 14px;
     background-color: #434a52;
     padding: 10px;
+    font-family: 'Trebuchet MS';
   }
   .responsive-styles2 {
     display: flex;
@@ -124,6 +125,7 @@
     font-size: 14px;
     background-color: #3a424a;
     padding: 10px;
+    font-family: 'Trebuchet MS';
   }
 }
 
